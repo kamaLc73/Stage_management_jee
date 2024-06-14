@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion - Gestion des Stages</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <header>
+        <h1>Gestion des Stages</h1>
+    </header>
+
+    <main>
+        <form action="login.do" method="post">
+            <div class="form-group">
+                <label for="username">Nom d'utilisateur:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Mot de passe:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Entrer</button>
+        </form>
+    </main>
+		<h4 id="p-alert"></h4>
+    <footer>
+        <p>&copy; 2024 - Gestion des Stages</p>
+    </footer>
+</body>
+</html>

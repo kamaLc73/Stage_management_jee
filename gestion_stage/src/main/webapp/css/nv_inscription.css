@@ -1,0 +1,122 @@
+@charset "ISO-8859-1";
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    margin: 0; /* Pour enlever les marges par défaut */
+    padding: 0; /* Pour enlever les padding par défaut */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin: 8px;
+}
+
+main {
+    padding: 20px;
+    margin: 10px auto; /* Pour centrer le contenu horizontalement */
+    max-width: 800px; /* Pour limiter la largeur du contenu */
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    margin: 8px;
+}
+
+.inline-form1{
+    text-align: center; 
+}
+
+.inline-form1 div {
+    display: inline-block; 
+    margin: 20px auto;
+    width: 32%; 	
+}
+
+.inline-form1 label, .inline-form1 input[type="text"] {
+    width: 40%; 
+}
+
+.centered-form{
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.inline-form2 form, .inline-form1 form {
+    margin: auto;
+}
+
+.inline-form2 div {
+    display: inline-flex;
+    margin: 10px auto;
+    margin-right: 20px;
+	height: 10%;    
+}
+
+
+.inline-form2 label, .inline-form2 input[type="text"]{
+	margin:5px;
+    display: inline-block; 
+    width: 175px; 
+    text-align: right;
+    margin-bottom: 5px;
+    font-weight: bold;
+
+}
+
+.inline-form2 input[type="date"],
+.inline-form2 input[type="text"],
+.centered-form select, 
+.inline-form1 input[type="text"]{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;	
+}
+
+.inline-form2 input[type="submit"], .buttons-form button[type="submit"]{
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-bottom: 7.5px;
+    margin-top: 7.5px;
+}
+
+.buttons-form button[type="submit"]:hover, .inline-form2 input[type="submit"]:hover {
+    background-color: #555;
+}
+
+.buttons-form{
+	text-align: center;
+}
+
+.buttons-form form{
+	display: inline-block;
+}
+
+#b1{
+	margin-right:20px ;
+}
+
+#b2{
+	margin-left:20px ;
+}
+
+

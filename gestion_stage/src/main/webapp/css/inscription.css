@@ -1,0 +1,126 @@
+/* Charset Declaration */
+@charset "UTF-8";
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+}
+
+h2 {
+	text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    margin: 40px 275px; 
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin: 0 auto; /* Pour centrer le tableau */
+    margin-bottom: 20px;
+}
+
+
+table th, table td {
+    border: 1px solid #dddddda5;
+    padding: 10px;
+    text-align: center;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+.buttons-container {
+    text-align: center;
+    margin-top: 20px;
+}
+.buttons-container input[type="submit"], input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.buttons-container form {
+    display: inline-block;
+}
+
+.buttons-container input[type="submit"] {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5mm;
+    transition: background-color 0.3s;
+}
+
+.buttons-container input[type="submit"]:hover {
+    background-color: #555;
+}
+
+.inline-form {
+	margin : auto 8px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+}
+
+.form-group{
+	width:32%;
+}
+
+
+.inline-form label, .inline-form input[type="text"] {
+    flex: 1; 
+    margin: 10px; 
+}
+
+.form-group input[type="text"]{
+	width: 35%;
+}
+
+.inline-form input[type="submit"] {
+    flex: 2;
+    margin: 10px 20px 10px 0; 
+    width: 100%; 
+}
+@media (max-width: 768px) {
+    table th, table td {
+        font-size: 14px;
+    }
+    main {
+        margin: 40px 10px; 
+    }
+    .inline-form label, .inline-form input[type="text"] {
+        flex: 1 100%;
+        text-align: center;
+        margin: 5px; 
+    }
+}
